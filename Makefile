@@ -11,7 +11,7 @@
 # 
 # .-
 
-.PHONY: all all_doc html clean
+.PHONY: all all_doc all_src html clean
 
 %.html: %.rst
 	rst2html $< > $@
